@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-
+scale=1.0">
+<link rel="stylesheet" href="./frontend/src/css/style.css">
+
+<main>
+<header>
+    <h2>X-CODE</h2>
+    <div class="links">
+        <li><a href="./.html">INICIAR SESION</li></a>
+        <li><a href="./.html">INICIO</li></a>
+        <li><a href="./.html">VENDER</li></a>
+        <li><a href="./.html">CARRITO</li></a>
+    </div>
+</header>
+<body>
+    <video class="videoProMax" src="./frontend/src/Assent/imagenes/16promaxVIDEO.mp4"
+     controls autoplay loop ></video>
+</body>
+    <section class="busqueda">
+        <div class="fondo">
+        <input type="text" placeholder="Busca el celular que deseas">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    </section>
+    <section class="imagenesLogos">
+        <img src="./frontend/src/Assent/imagenes/logoAPPLE.jpg" alt="">
+        <img src="./frontend/src/Assent/imagenes/logoSAMSUNG.jpg" alt="">
+        <img src="./frontend/src/Assent/imagenes/logoXIAOMI.jpg" alt="">
+        <img src="./frontend/src/Assent/imagenes/logoHUAWEI.jpg" alt="">
+    </section>
+
+    <section class="titleMv">
+        <h2> LOS MAS VENDIDOS </h2>
+    </section>
+
+    <section class="masVendidos">
+        <div class="imgM">
+            <img src="./frontend/src/Assent/imagenes/imagen1.png" alt="">
+                <div class="textoM">
+                    <h2>ZTE</h2>
+                    <p>Celular NUBIA Music 4G+128GB Multicolor, Android,</p>                   
+                    <p><span>$396.900</span></p>
+                    <div class="botones">
+                         <button class="buttonA">Agregar al carro</button>
+                    </div>
+                </div>
+            
+        </div>
+
+        <div class="imgM">
+            <img src="./frontend/src/Assent/imagenes/imagen2.png" alt="">
+            <div class="textoM">
+                <h2>XIAOMI</h2>
+                <p>Celular Poco X6 Pro 5g 512GB 12Ram 64Mp Negro, Memoria Ram12GB</p>
+                
+                <p><span>$1.259.900</span></p>
+
+                <div class="botones">
+                    <button class="buttonA">Agregar al carro</button>
+               </div>
+
+            </div>
+        </div>
+        <div class="imgM">
+            <img src="./frontend/src/Assent/imagenes/imagen3.jpg" alt="">
+            <div class="textoM">
+                <h2>APPLE</h2>
+                <p>iPhone 16 Pro Max 256 GB | 8 GB RAM | Pantalla 6.9 Pulgadas | Chip A18 Pro </p>
+                
+                <p><span>$6.799.900</span></p>
+
+                <div class="botones">
+                    <button class="buttonA">Agregar al carro</button>
+               </div>
+            </div>
+        </div>
+        <div class="imgM">
+            <img src="./frontend/src/Assent/imagenes/imagen4.jpg" alt="">
+            <div class="textoM">
+                <h2>SAMSUNG</h2>
+                <p>Celular Samsung Galaxy S24 ULTRA 256GB 12RAM 5G Negro Titanio</p>
+                <p><span>$4.289.990</span></p>
+
+                <div class="botones">
+                    <button class="buttonA">Agregar al carro</button>
+               </div>
+            </div>
+        </div>
+    </section>
+<section class="verMas">
+    <button>Ver mas</button>
+</section>
+
+</main>
+
+    <footer>
+        <p>&copy;2024 all rigths reserved by Duvan Steven Guzman Loaiza</p>
+    </footer>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <title>Gestión de Productos</title>
+<link
+href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.m
+in.css" rel="stylesheet">
+<link href="/public/styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+<div class="container mx-auto px-4 py-8">
+
+<h1 class="text-3xl font-bold mb-8 text-center text-gray-
+800">Gestión de Productos</h1>
+
+ Formulario de Producto 
+<div class="bg-white p-6 rounded-lg shadow-md mb-8">
+<h2 class="text-xl font-semibold mb-4">Agregar/Editar
+Producto</h2>
+<form id="productForm" class="space-y-4">
+<input type="hidden" id="productId">
+<div>
+
+<label class="block text-gray-
+700">Nombre:</label>
+
+<input type="text" id="productName" class="w-full
+p-2 border rounded" required>
+</div>
+<div><label class="block text-gray-
+    700">Precio:</label>
+    
+    <input type="number" id="productPrice" class="w-
+    full p-2 border rounded" required>
+    
+    </div>
+    <div>
+    
+    <label class="block text-gray-
+    700">Descripción:</label>
+    
+    <textarea id="productDescription" class="w-full
+    p-2 border rounded" required></textarea>
+    </div>
+    <button type="submit" class="bg-blue-500 text-white
+    px-4 py-2 rounded hover:bg-blue-600">
+    Guardar Producto
+    </button>
+    </form>
+    </div>
+     Lista de Productos 
+    <div class="bg-white p-6 rounded-lg shadow-md">
+    <h2 class="text-xl font-semibold mb-4">Lista de
+    Productos</h2>
+    <div id="productList" class="space-y-4"></div>
+    </div>
+    </div>
+    Toast Notifications 
+    <div id="toast" class="fixed top-4 right-4 hidden bg-green-500
+    text-white px-6 py-3 rounded shadow-lg"></div>
+    <script
+    src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/src/js/api.js"></script>
+    <script src="/src/js/productForm.js"></script>
+    <script src="/src/js/productList.js"></script>
+    <script src="/src/js/main.js"></script>
+    </body>
+    </html> -->
