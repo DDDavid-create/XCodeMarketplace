@@ -1,0 +1,570 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    color: black;
+    font-size: 12px;
+}
+
+/* EDICION DESDE EL VIDEO HASTA EDICION DE LINKS 1 PARTE */
+.videoProMax{
+    width: 100%;
+    height: 400px ;
+    margin-top: 30px;
+}
+
+body{
+min-height: 100vh;
+background: linear-gradient(180deg, rgba(0,12,36,1) 53%, rgb(37, 37, 132) 75%, rgb(91, 91, 201) 91% 100%);
+}
+
+
+header h2{
+    font-size: 30px;
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0px 50px 0px 90px;
+    list-style: none;
+
+}
+.links {
+    display: flex;
+    gap: 40px;
+        
+}
+
+.links a:hover{
+    color: darkorange;
+ }
+.links li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    
+}
+
+/* DESDE IMAGENES DE LOS LOGOS HASTA EL TITULO DE MAS VENDIDOS*/
+
+.imagenesLogos img:hover{
+
+    transform: scale(1.1) translateY(-10px);
+}
+
+.imagenesLogos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    /* background-color: beige; */
+    padding: 50px;
+    
+}
+
+.imagenesLogos img{
+    width: 200px; 
+    object-fit: cover;
+    border-radius: 20%;
+    margin-bottom: 40px; 
+    transition: all .3s;
+    height: 200px;
+    background-color:#EEEEEE
+
+}
+
+.titleMv{
+    /* background-color: aliceblue; */
+    margin-top: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+/* IMAGENES DE LOS MAS VENDIDOS EDICION COMPLETA  */
+
+.masVendidos{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 50px;
+     /* background-color: aqua; */
+    color: white;  
+}
+.imgM img{
+    width: 200px;
+    /* object-fit: cover; */
+    border-radius: 20%;
+    margin-bottom: 40px; 
+    /* transition: all .3s; */
+}
+
+.textoM{
+    width: 200px;
+    /* background-color: black; */
+    margin-top: -40px;
+    height: 170px;
+    /* background-color: aqua;
+    */
+
+}
+
+.textoM p{
+    margin-top: 15px;
+}
+/* EDICION DE LOS SPAN EN TEXTOS */
+
+
+/* EDICION DE PRIMEROS BOTONES DE AGREGAR */
+.botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+.buttonA{
+    border-radius: 5px;
+    height: 29px;
+    border: none;
+    width: 150px;
+    color: white;
+    background-color:rgba(19, 16, 13, 0.39);
+
+}
+
+.verMas{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+.verMas button{
+    width: 80px;
+    border: none;
+    height: 20px;
+    border-radius: 5px;
+}
+
+/* EDICION DE LA BARRA DE NAVEGADOR */
+
+.busqueda{
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.fondo{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 90px;
+    /* height: 25px; */
+    background: #EEEEEE;
+    border-radius: 9px;
+    padding: 10px 20px;
+    box-shadow: 0 0px 10px rgba(0, 0,0 , .3);
+    transition: .5s ease;
+}
+
+.fondo:hover{
+    width: 500px;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    color: #6528f7;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+
+i{
+    font-size: 22px;
+    color: #6528f7;
+    cursor: pointer;
+}
+
+/* PARTE DOS VENDER */
+
+.tituloVender{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.cajaVender{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    
+   
+}
+
+.inputadd{
+    font-size: 10px;
+}
+    
+  
+.cajaContenidoVen{
+    /* background-color: bisque; */
+    display: flex;
+     /* justify-content: center; */
+    flex-direction: column; 
+    /* margin-top: 20px; */
+    /* padding: 10px;  */
+    align-items: center;
+    /* width: 100%; */
+    /* padding: 50px; */
+    /* box-shadow: 0px 10px 20px 10px white; */
+   
+
+}
+.cajonesTextoVen {
+    /* background-color: #EEEEEE; */
+    padding: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botonven1{
+   width: 300px;
+    height: 150px;
+    background-color: #EEEEEE;
+    margin-top: 5px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.botonven2{
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 60px;
+    align-items: center;
+}
+
+.botonven2 button{
+    width: 180px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+.cajonesTextoVen h2{
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* Pg Apple todo */
+
+.imagenPortadaApple img{
+    height: 400px;
+    border-radius: 20px;
+
+}
+
+.imagenPortadaApple{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tituloApple{
+        color: white;
+        display: flex;
+        justify-content: center;
+         margin-top: 30px;
+}
+
+.itemCarrusel{
+    border: 1px solid black;
+    height: 200px;
+    position: relative;
+    width: 200px;
+}
+.tarjetaCarrusel{
+    /* background-color: #6528f7; */
+    height: 200px;
+    width: 200px;
+
+}
+.flechasCarrusel{
+    position: absolute;
+    top: 0;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+#conteItemsCarrusel{
+    /* border: 5px solid black; */
+    height: 200px;
+    overflow: hidden;
+    width: 200px;
+    margin-top: 40px;
+    border-radius: 10px;
+    transition: transform 1s ease-in-out, width 1s ease-in-out;
+}
+#tarjetaCarrusel-1{
+    /* background-color: #6528f7; */
+
+}
+#tarjetaCarrusel-2{
+    /* background-color: #6528f7; */
+
+}
+#tarjetaCarrusel-3{
+    /* background-color: #6528f7; */
+
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    color: white;
+}
+
+#contePuntos{
+    
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+#contePuntos a{
+    font-size: 1.2em;
+    color: black;
+}
+
+.imgAppleLogos{
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.todoTextoApple{
+    /* background-color: #EEEEEE; */
+    height: 600px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+/* .intemCarrusel1X{
+    display: flex;
+    justify-content: space-around;
+} */
+
+
+.flechasCarrusel a i{
+    font-size: 10px;
+}
+
+.textoDescripcionApple p{
+    color: white;
+}
+.textoDescripcionApple h2{
+    color: white;
+    margin-top: 10px;
+}
+
+/* EDICION LOGIN */
+.containerL{
+    display: flex;
+    justify-content: center;
+
+}
+
+.login-box{
+    /* background-color: white; */
+    height: 400px;
+    margin-top: 80px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 10px white;
+}
+.login-box h2{
+    margin-top: 40px;
+    color: white;
+
+}
+.boxs{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1{
+   display: flex;
+    color: black;
+    /* justify-content: center; */
+    background-color: white;
+    margin-top: 60px;
+    height: 40px; 
+    width: 300px;
+    border-radius: 10px;
+    
+    
+}
+.box1 i{
+    position: absolute;
+    left: 750px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #3949ab;
+}
+
+.box2 i{
+    position: absolute;
+    left: 750px;
+    margin-top: 10px;
+    
+    font-size: 16px;
+    
+    color: #3949ab;
+}
+.box1 input{
+    font-size: 15px;
+}
+
+
+.box2{
+    background-color: white;
+    margin-top: 30px;
+    height: 40px;
+    display: flex;
+    width: 300px;
+    border-radius: 10px;
+}
+.box2 input{
+    font-size: 15px;
+}
+
+.textoL{
+    background-color: aqua;
+    margin-top: 60px;
+}
+
+
+.buttonL{
+    margin-top: 40px;
+    /* background-color: #EEEEEE; */
+   
+    
+}
+.buttonL button{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 3px 4px white; */
+    border: none;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.textoRegistro{
+    margin-top: 20px;
+    color: white;
+}
+.textoRegistro a{
+    color: white;
+}
+
+/* Edicion registro */
+.registro-box{
+    height: 600px;
+    margin-top: 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 10px white;
+}
+.registro-box h2{
+    color: white;
+    margin-top: 20px;
+}
+ 
+.boxsR{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.boxR1{
+    display: flex;
+    color: black;
+    /* justify-content: center; */
+    background-color: white;
+    margin-top: 60px;
+    height: 40px; 
+    width: 300px;
+    border-radius: 10px;
+}
+.boxR1 input{
+    font-size: 15px;
+}
+
+.boxR2{
+    background-color: white;
+    margin-top: 30px;
+    height: 40px;
+    display: flex;
+    width: 300px;
+    border-radius: 10px;
+}
+.boxR2 input{
+    font-size: 15px;
+}
+
+.buttonR {
+    margin-top: 70px;
+}
+.buttonR button{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 3px 4px white; */
+    border: none;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.textoRegistroR{
+    color: white;
+    margin-top: 20px;
+}
