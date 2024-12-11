@@ -65,9 +65,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         if (response.ok) {
-            alert('User registered. Please log in.');
+            alert('Usuario registrado. Ingrese, por favor');
         } else {
-            alert('Registration failed');
+            alert('Registro fallido.Intente de nuevo');
         }
     });
 
@@ -89,10 +89,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         if (response.ok) {
-            alert('Product added');
+            alert('Product añadido satisfactoriamente');
             loadProducts();
         } else {
-            alert('Failed to add product');
+            alert('Fallo en añadir el producto');
         }
     });
 
@@ -107,8 +107,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="product-info">
                     <h3>${product.title}</h3>
                     <p>${product.description}</p>
-                    <p><strong>Price:</strong> $${product.price}</p>
-                    <button onclick="addToCart(${product.id})">Add to Cart</button>
+                    <p><strong>Precio:</strong> $${product.price}</p>
+                    <button onclick="addToCart(${product.id})">Añadir al carrito</button>
                 </div>
             </div>
         `).join('');
