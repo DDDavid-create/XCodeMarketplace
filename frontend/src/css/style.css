@@ -519,6 +519,7 @@ i {
 }
 
 .buttonL button {
+    cursor: pointer;
     width: 300px;
     height: 30px;
     border-radius: 10px;
